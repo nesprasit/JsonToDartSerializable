@@ -1,10 +1,9 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.6.20"
     id("org.jetbrains.intellij") version "1.5.2"
 }
 
-group = "com.prasitsingzom.json2dart"
+group = "com.nesprasit.json2dart"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -24,9 +23,6 @@ tasks {
     withType<JavaCompile> {
         sourceCompatibility = "11"
         targetCompatibility = "11"
-    }
-    withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions.jvmTarget = "11"
     }
 
     patchPluginXml {
