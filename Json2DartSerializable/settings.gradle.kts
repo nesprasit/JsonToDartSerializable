@@ -1,0 +1,1 @@
+rootProject.name = "Json2DartSerializable"
