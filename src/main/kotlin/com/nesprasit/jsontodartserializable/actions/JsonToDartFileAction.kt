@@ -25,7 +25,6 @@ import com.intellij.psi.PsiFile
 import com.intellij.psi.PsiManager
 import com.nesprasit.jsontodartserializable.extensions.createDartFile
 import com.nesprasit.jsontodartserializable.extensions.executeCommandAction
-import com.nesprasit.jsontodartserializable.extensions.toPretty
 import com.nesprasit.jsontodartserializable.generates.DartClassBuilder
 import com.nesprasit.jsontodartserializable.generates.DartClassGenerator
 import com.nesprasit.jsontodartserializable.views.JsonToDartFileView

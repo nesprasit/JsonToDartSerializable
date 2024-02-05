@@ -41,8 +41,6 @@ class JsonToDartGenerateAction : AnAction() {
 
                 val generated = DartClassGenerator(className, jsonText).generate()
                 val jsonTextBuilder = DartClassBuilder(fileName, generated).build()
-                println(jsonTextBuilder)
-
 
                 project.executeCommandAction {
                     document.insertString(0, jsonTextBuilder)
