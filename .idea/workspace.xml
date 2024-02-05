@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635e2ef3-28ec-497b-8516-b04c4a8bbf70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartFileAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartFileAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartGenerateAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartGenerateAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/extensions/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/extensions/Extensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassBuilder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/helpers/GsonHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/helpers/GsonHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/DartClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/DartClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/GenericDartClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/GenericDartClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/ListDartClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/ListDartClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/DartClassBuilderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/DartClassBuilderTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartFileView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartFileView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartGenerateView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartGenerateView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +53,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
