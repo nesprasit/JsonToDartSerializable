@@ -1,0 +1,18 @@
+{
+  "emp_1": [
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1"
+  ],
+  "emp_2": [
+    true,
+    null,
+    true,
+    true,
+    true,
+    false
+  ]
+}

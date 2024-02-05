@@ -1,1 +1,8 @@
-rootProject.name = "Json2DartSerializable"
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "JsonToDartSerializable"

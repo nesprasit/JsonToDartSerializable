@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="635e2ef3-28ec-497b-8516-b04c4a8bbf70" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartFileAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/actions/JsonToDartGenerateAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/extensions/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/generates/DartClassGeneratorObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/helpers/GsonHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/DartClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/GenericDartClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/model/ListDartClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/DartClassBuilderTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartFileView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartGenerateView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/views/JsonToDartView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation>
+            <after_sync>
+              <task name="setupDependencies" />
+            </after_sync>
+          </activation>
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2bvjvLpGlnCqCr692Z5zWDLbm6L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prasit/Desktop/Products/Plugins/JsonToDartSerializable/src/main/kotlin/com/nesprasit/jsontodartserializable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/extensions" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.nesprasit.jsontodartserializable.views" />
+      <recent name="com.nesprasit.jsontodartserializable.actions" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Run Plugin">
+    <configuration name="JsonToDartSerializable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.JsonToDartSerializable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="635e2ef3-28ec-497b-8516-b04c4a8bbf70" name="Changes" comment="" />
+      <created>1707102676973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707102676973</updated>
+    </task>
+    <servers />
+  </component>
+</project>
