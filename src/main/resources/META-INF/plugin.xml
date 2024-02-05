@@ -16,6 +16,12 @@
   <!--suppress PluginXmlValidity -->
   <description><![CDATA[
    <br>Plugin for Dart to convert Json String into Dart data class serializable code quickly</br>
+   <b><br>How to use : </br></b>
+    <ol>
+      <li>Add dev_dependency <p><a href="https://pub.dev/packages/json_serializable">json_serializable</a></p></li>
+      <li>New file or Generate dart file</li>
+      <li>run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal</li>
+    </ol>
 ]]></description>
 
   <!-- Product and plugin compatibility requirements.
