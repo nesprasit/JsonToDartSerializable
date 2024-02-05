@@ -43,11 +43,13 @@ class JsonToDartFileAction : AnAction() {
                 val className = view.getClassName()
                 val jsonText = view.getJSONText()
 
-                val generated = DartClassGenerator(className, jsonText).generate()
-                val jsonTextBuilder = DartClassBuilder(fileName, generated).build()
+                if(dialog.isOK){
+                    val generated = DartClassGenerator(className, jsonText).generate()
+                    val jsonTextBuilder = DartClassBuilder(fileName, generated).build()
 
-                directory.project.executeCommandAction {
-                    project.createDartFile(fileName, directory, jsonTextBuilder)
+                    directory.project.executeCommandAction {
+                        project.createDartFile(fileName, directory, jsonTextBuilder)
+                    }
                 }
             }
         }

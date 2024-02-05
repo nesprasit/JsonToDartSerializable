@@ -33,19 +33,22 @@ class JsonToDartGenerateAction : AnAction() {
             val className = view.getClassName()
             val jsonText = view.getJSONText()
 
-            val file = e.getData(PlatformDataKeys.VIRTUAL_FILE)
-            val editor = e.getData(PlatformDataKeys.EDITOR_EVEN_IF_INACTIVE)
-            val fileName = file?.name ?: return
-            val document = editor?.document ?: return
+            if(dialog.isOK){
+                val file = e.getData(PlatformDataKeys.VIRTUAL_FILE)
+                val editor = e.getData(PlatformDataKeys.EDITOR_EVEN_IF_INACTIVE)
+                val fileName = file?.name ?: return
+                val document = editor?.document ?: return
 
-            val generated = DartClassGenerator(className, jsonText).generate()
-            val jsonTextBuilder = DartClassBuilder(fileName, generated).build()
-            println(jsonTextBuilder)
+                val generated = DartClassGenerator(className, jsonText).generate()
+                val jsonTextBuilder = DartClassBuilder(fileName, generated).build()
+                println(jsonTextBuilder)
 
 
-            project.executeCommandAction {
-                document.insertString(0, jsonTextBuilder)
+                project.executeCommandAction {
+                    document.insertString(0, jsonTextBuilder)
+                }
             }
+
         }
     }
 }

@@ -14,7 +14,9 @@
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <!--suppress PluginXmlValidity -->
-  <description><![CDATA[]]></description>
+  <description><![CDATA[
+   <br>Plugin for Dart to convert Json String into Dart data class serializable code quickly</br>
+]]></description>
 
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -36,7 +38,9 @@
 
     <action id="JsonToDartFileAction"
             class="com.nesprasit.jsontodartserializable.actions.JsonToDartFileAction"
-            text="JsonToDartSerializable"/>
+            text="JsonToDartSerializable"
+            icon="/icons/pluginIcon16x16.png"
+    />
 
     <group  id="JsonToDart.Generate"
             text="JsonToDartGenerateAction">
