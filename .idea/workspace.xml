@@ -11,6 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="635e2ef3-28ec-497b-8516-b04c4a8bbf70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/pluginIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/pluginIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/pluginIcon16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/pluginIcon16x16.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +78,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/prasit/Desktop/Products/Plugins/JsonToDartSerializable/out",
+    "last_opened_file_path": "/Users/prasit/Desktop/Products/Plugins/JsonToDartSerializable",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.23448277",
@@ -85,10 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/out" />
+      <recent name="$PROJECT_DIR$/src/main/resources/icons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/extensions" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.nesprasit.jsontodartserializable.views" />
@@ -99,6 +104,35 @@
     <option name="myCommands">
       <command value="gradle " />
     </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Run Plugin">
+    <configuration name="JsonToDartSerializable [runPluginVerifier]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runPluginVerifier" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.JsonToDartSerializable [runPluginVerifier]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

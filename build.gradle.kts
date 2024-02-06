@@ -50,4 +50,12 @@ tasks {
   publishPlugin {
     token.set(System.getenv("PUBLISH_TOKEN"))
   }
+
+  runPluginVerifier {
+    verifierVersion.set("1.255")
+    ideVersions.set(listOf(
+      "AI-221.6008.13.2211.9477386",
+      "AI-221.6008.13.2211.9514443"
+    ))
+  }
 }
