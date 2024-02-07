@@ -10,7 +10,7 @@
   <idea-version since-build="145.0"/>
 
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-  <vendor email="xitlbmtbnnes@gmail.com" url="https://github.com/nesprasit">Nes Prasit Singzom</vendor>
+  <vendor email="prasitsingzom@gmail.com" url="https://github.com/nesprasit">Nes Prasit Singzom</vendor>
 
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
