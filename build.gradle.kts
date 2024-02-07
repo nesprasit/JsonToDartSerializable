@@ -22,7 +22,7 @@ intellij {
   version.set("232.10227.8")
   type.set("IC") // Target IDE Platform
 
-  plugins.set(listOf("Dart:232.10286"))
+  plugins.set(listOf("Dart:232.10286","android"))
 }
 
 tasks {
