@@ -17,24 +17,19 @@
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <!--suppress PluginXmlValidity -->
   <description><![CDATA[
-  Plugin for Dart to convert Json String into Dart data class serializable code quickly
-  <b><br>How to use : </br></b>
-  <ul>
-    <li>This will add a line like this to your package's pubspec.yaml (and run an implicit <code>dart pub get</code>): </li>
-    <li>
-      <code>dependency:
-      </br>&nbsp;&nbsp;<a href="https://pub.dev/packages/json_annotation">json_annotation</a>:
-      </code>
-    </li>
-    <li>
-      <code>dev_dependencies:
-      </br>&nbsp;&nbsp;<a href="https://pub.dev/packages/json_serializable">json_serializable</a>:
-      </br>&nbsp;&nbsp;<a href="https://pub.dev/packages/build_runner">build_runner</a>:
-      </code>
-    </li>
-    <li>New file or Generate dart</li>
-    <li>run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal</li>
-  </ul>
+  Plugin for Dart to convert Json String into Dart data class and generate JSON serialization code quickly<br>
+  <br><b>Usage :</b><br>
+  New file :
+  <ol>
+    <li>Right-click on the folder</li>
+    <li>New -&gt; JsonToDartSerializable</li>
+  </ol>
+  Generate :
+  <ol>
+    <li>control + enter in IDE</li>
+    <li>JsonToDartSerializable</li>
+  </ol>
+  run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal
 ]]></description>
 
   <!-- Product and plugin compatibility requirements.
@@ -43,8 +38,8 @@
   <depends>com.intellij.modules.platform</depends>
   <depends>com.intellij.modules.lang</depends>
   <depends>com.intellij.modules.json</depends>
+  <depends>com.intellij.java</depends>
   <depends>org.jetbrains.android</depends>
-  <depends>com.intellij.modules.androidstudio</depends>
 
   <!-- Extension points defined by the plugin.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
