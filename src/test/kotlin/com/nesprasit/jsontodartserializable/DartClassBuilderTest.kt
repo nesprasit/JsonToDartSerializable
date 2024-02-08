@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.jsontodartserializable.tests
+package com.nesprasit.jsontodartserializable
 
 import com.nesprasit.jsontodartserializable.extensions.toPascalCase
 import com.nesprasit.jsontodartserializable.extensions.toPretty
@@ -26,10 +26,12 @@ class DartClassBuilderTest {
 
     @Test
     fun build() {
-        val json = readJSON("json7.json").toPretty()
-        val generated = DartClassGenerator("DartEntity", json).generate()
-        val build = DartClassBuilder("dart_entity", generated)
-        println(build.build())
+        val json = readJSON("json3.json").toPretty()
+        if(json.isNotEmpty()){
+            val generated = DartClassGenerator("DartEntity", json).generate()
+            val build = DartClassBuilder("dart_entity", generated)
+            println(build.build())
+        }
     }
 
     @Test
@@ -41,9 +43,9 @@ class DartClassBuilderTest {
     @Suppress("SameParameterValue")
     private fun readJSON(name: String): String {
         var rootPath = System.getProperty("user.dir")
-        rootPath += "/src/main/kotlin/"
+        rootPath += "/src/test/kotlin/"
         rootPath += this::class.java.packageName.replace(".", "/")
-        val jsonFile = File("${rootPath}/$name")
+        val jsonFile = File("${rootPath}/src/$name")
         return jsonFile.readText()
     }
 

@@ -51,6 +51,10 @@ tasks {
     token.set(System.getenv("PUBLISH_TOKEN"))
   }
 
+  test {
+    useJUnitPlatform()
+  }
+
   runPluginVerifier {
     verifierVersion.set("1.255")
     ideVersions.set(listOf(

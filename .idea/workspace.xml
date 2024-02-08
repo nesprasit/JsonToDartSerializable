@@ -11,7 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="635e2ef3-28ec-497b-8516-b04c4a8bbf70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/DartClassBuilderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/DartClassBuilderTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json6.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nesprasit/jsontodartserializable/tests/json7.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src/json7.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +98,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/plugins" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/com/nesprasit/jsontodartserializable/src" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.nesprasit.jsontodartserializable" />
       <recent name="com.nesprasit.jsontodartserializable.views" />
       <recent name="com.nesprasit.jsontodartserializable.actions" />
     </key>
@@ -101,32 +112,38 @@
       <command value="gradle " />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Run Plugin">
-    <configuration name="JsonToDartSerializable [runPluginVerifier]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DartClassBuilderTest">
+    <configuration name="DartClassBuilderTest" type="GradleRunConfiguration" factoryName="Gradle" activateToolWindowBeforeRun="false" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="runPluginVerifier" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.nesprasit.jsontodartserializable.DartClassBuilderTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.Run Plugin" />
+      <item itemvalue="Gradle.DartClassBuilderTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JsonToDartSerializable [runPluginVerifier]" />
+        <item itemvalue="Gradle.DartClassBuilderTest" />
       </list>
     </recent_temporary>
   </component>
