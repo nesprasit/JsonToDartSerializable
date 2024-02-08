@@ -19,27 +19,22 @@
   <description><![CDATA[
   Plugin for Dart to convert Json String into Dart data class and generate JSON serialization code quickly<br>
   <br><b>Usage :</b><br>
-  New file :
-  <ol>
-    <li>Right-click on the folder</li>
-    <li>New -&gt; JsonToDartSerializable</li>
-  </ol>
-  Generate :
-  <ol>
-    <li>control + enter in IDE</li>
-    <li>JsonToDartSerializable</li>
-  </ol>
+  New file :<br>
+  &nbsp;&nbsp;1. Right-click on the folder<br>
+  &nbsp;&nbsp;2. New -&gt; JsonToDartSerializable<br>
+  Generate :<br>
+  &nbsp;&nbsp;1. control + enter in IDE<br>
+  &nbsp;&nbsp;2. JsonToDartSerializable<br>
+  <br>
   run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal
 ]]></description>
 
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>Dart</depends>
-  <depends>com.intellij.modules.platform</depends>
   <depends>com.intellij.modules.lang</depends>
-  <depends>com.intellij.modules.json</depends>
-  <depends>com.intellij.java</depends>
   <depends>org.jetbrains.android</depends>
+  <depends>com.intellij.modules.androidstudio</depends>
 
   <!-- Extension points defined by the plugin.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->

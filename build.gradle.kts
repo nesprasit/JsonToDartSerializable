@@ -19,10 +19,10 @@ dependencies {
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
   pluginName.set("JsonToDartSerializable")
-  version.set("232.10227.8")
-  type.set("IC") // Target IDE Platform
+  version.set("AI-231.9392.1.2311.11255304")
+  type.set("AI") // Target IDE Platform
 
-  plugins.set(listOf("Dart:232.10286","android"))
+  plugins.set(listOf("Dart:231.9411","android"))
 }
 
 tasks {

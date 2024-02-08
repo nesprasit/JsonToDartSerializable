@@ -177,7 +177,11 @@ class JsonToDartView(private val dialog: DialogWrapper,val viewType: ViewType) {
     private fun checkGenerateButtonEnabled() {
         var fileName = true
         val className = classNameField.text.isNotEmpty()
-        val jsonText = getJSONText()
+        val jsonText = try {
+            getJSONText()
+        } catch (_: Exception) {
+            ""
+        }
 
         if(viewType == ViewType.FILE) {
             fileName = fileNameField.text.isNotEmpty()
