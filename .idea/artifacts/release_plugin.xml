@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="release-plugin">
-    <output-path>$PROJECT_DIR$/out/artifacts/release_plugin</output-path>
-    <root id="archive" name="release-plugin.jar">
-      <element id="module-source" name="JsonToDartSerializable.main" />
-    </root>
-  </artifact>
-</component>
