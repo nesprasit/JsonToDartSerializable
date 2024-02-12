@@ -29,6 +29,17 @@
   run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal
 ]]></description>
 
+  <change-notes><![CDATA[
+  <h2>Features</h2>
+  <ul>
+    <li>Generate Dart Classes from JSON</li>
+  </ul>
+  <h2>Bug Fixes</h2>
+  <ul>
+    <li>Fixed issue format json</li>
+  </ul>
+]]></change-notes>
+
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>Dart</depends>
