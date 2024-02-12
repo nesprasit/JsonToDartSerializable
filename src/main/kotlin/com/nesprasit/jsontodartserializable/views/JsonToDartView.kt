@@ -142,8 +142,9 @@ class JsonToDartView(private val dialog: DialogWrapper,val viewType: ViewType) {
                 val jsonText = jsonEditor.document.text
                 GsonHelper.newInstance().prettyFormat(
                     jsonText,
-                    run = { _ ->
+                    run = { jsonPretty ->
                         checkGenerateButtonEnabled()
+                        jsonEditor.document.setText(jsonPretty)
                     },
                     err = {
                         dialog.isOKActionEnabled = false

@@ -32,6 +32,7 @@ tasks {
     sourceCompatibility = "17"
     targetCompatibility = "17"
   }
+
   withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     kotlinOptions.jvmTarget = "17"
   }
@@ -53,13 +54,5 @@ tasks {
 
   test {
     useJUnitPlatform()
-  }
-
-  runPluginVerifier {
-    verifierVersion.set("1.255")
-    ideVersions.set(listOf(
-      "AI-221.6008.13.2211.9477386",
-      "AI-221.6008.13.2211.9514443"
-    ))
   }
 }

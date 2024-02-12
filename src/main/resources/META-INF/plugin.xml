@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
   <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <id>com.nesprasit.JsonToDartSerializable</id>
 
   <!-- Public plugin name should be written in Title Case.
@@ -45,11 +45,11 @@
   <actions>
     <action id="JsonToDartGenerateAction"
             class="com.nesprasit.jsontodartserializable.actions.JsonToDartGenerateAction"
-            text="JsonToDartSerializable"/>
+            text="Dart Classes from JSON"/>
 
     <action id="JsonToDartFileAction"
             class="com.nesprasit.jsontodartserializable.actions.JsonToDartFileAction"
-            text="JsonToDartSerializable"
+            text="Dart Class File from JSON"
             icon="/icons/pluginIcon16x16.png"
     />
 
@@ -62,9 +62,8 @@
 
     <group  id="JsonToDart.File"
             text="JsonToDartFileAction">
-      <separator />
       <reference id="JsonToDartFileAction"/>
-      <add-to-group anchor="before" relative-to-action="NewFile" group-id="NewGroup" />
+      <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFile"/>
     </group>
 
   </actions>
