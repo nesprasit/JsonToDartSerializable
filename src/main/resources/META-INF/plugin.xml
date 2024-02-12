@@ -30,11 +30,11 @@
 ]]></description>
 
   <change-notes><![CDATA[
-  <h2>Features</h2>
+  <h4>Features</h4>
   <ul>
     <li>Generate Dart Classes from JSON</li>
   </ul>
-  <h2>Bug Fixes</h2>
+  <h4>Bug Fixes</h4>
   <ul>
     <li>Fixed issue format json</li>
   </ul>
