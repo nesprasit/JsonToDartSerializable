@@ -1,0 +1,32 @@
+{
+  "_id": "hello",
+  "emp_2": 1000,
+  "emp_3": 1000.0,
+  "emp_4": true,
+  "emp_5": [
+    {
+      "name_1": "Test1",
+      "email_1": "Test1@gmail.com"
+    },
+    {
+      "name_1": "Test1",
+      "email_1": "Test1@gmail.com"
+    }
+  ],
+  "emp_6": [
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1"
+  ],
+  "emp_7": [
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1",
+    "A1"
+  ]
+}

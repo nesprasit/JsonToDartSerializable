@@ -26,7 +26,7 @@ class DartClassBuilderTest {
 
     @Test
     fun build() {
-        val json = readJSON("json3.json").toPretty()
+        val json = readJSON("json7.json").toPretty()
         if(json.isNotEmpty()){
             val generated = DartClassGenerator("DartEntity", json).generate()
             val build = DartClassBuilder("dart_entity", generated)

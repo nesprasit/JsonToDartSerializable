@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.nesprasit"
-version = "1.0"
+version = "1.0.1"
 
 repositories {
   mavenCentral()
@@ -38,7 +38,7 @@ tasks {
   }
 
   patchPluginXml {
-    version.set("1.0.0")
+    version.set("1.0.1")
     sinceBuild.set("145.0")
   }
 
@@ -55,4 +55,19 @@ tasks {
   test {
     useJUnitPlatform()
   }
+}
+
+tasks.register("buildRelease", type = Copy::class) {
+  dependsOn(tasks["buildPlugin"])
+
+  val dir = System.getProperty("user.dir")
+  val from = file("$dir/build/libs/")
+  val target = file("$dir/buildLib/libs/")
+
+  from.listFiles()?.findLast { it.name.contains(Regex("^Json.*")) }?.let {
+    from(it)
+    into(target)
+  }
+
+  dependsOn(":buildLib:buildZip")
 }

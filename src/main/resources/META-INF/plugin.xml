@@ -21,10 +21,10 @@
   <br><b>Usage :</b><br>
   New file :<br>
   &nbsp;&nbsp;1. Right-click on the folder<br>
-  &nbsp;&nbsp;2. New -&gt; JsonToDartSerializable<br>
+  &nbsp;&nbsp;2. <code>New</code> -&gt; <code>Dart Class File from JSON</code><br>
   Generate :<br>
   &nbsp;&nbsp;1. control + enter in IDE<br>
-  &nbsp;&nbsp;2. JsonToDartSerializable<br>
+  &nbsp;&nbsp;2. <code>Dart Classes from JSON</code><br>
   <br>
   run <code>flutter packages pub run build_runner build --delete-conflicting-outputs</code> in terminal
 ]]></description>
